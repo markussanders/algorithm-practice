@@ -33,3 +33,4 @@ function makeArrayConsecutive2(statues) {
     }
       return missingStatues;
 }
+

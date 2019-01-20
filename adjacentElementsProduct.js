@@ -36,3 +36,4 @@ function adjacentElementsProduct(inputArray) {
     }
       return largest;
 }
+
