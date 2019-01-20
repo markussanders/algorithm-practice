@@ -24,12 +24,12 @@ Array of the longest strings, stored in the same order as in the inputArray.
  */
 
 function allLongestStrings(inputArray) {
-    var longest = [];
-    var sorted = inputArray.sort((a, b) => b.length - a.length);
-    longestWord = sorted[0];
+    let longest = [];
+    let sorted = inputArray.sort((a, b) => b.length - a.length);
+    let longestWord = sorted[0];
     longest.push(sorted[0]);
-    for (var i = 1; i < sorted.length; i++) {
-        if(sorted[i].length === longestWord.length) {
+    for (let i = 1; i < sorted.length; i++) {
+        if (sorted[i].length === longestWord.length) {
             longest.push(sorted[i]);
         }
     }
