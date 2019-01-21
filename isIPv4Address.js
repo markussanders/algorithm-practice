@@ -46,7 +46,7 @@ function isIPv4Address(inputString) {
     // let validRange = nums.map(element => element <= 255);
     // if (validRange.reduce((a,b) => (a + b)) === nums.length) {
     //   return true;
-    // }
+    // }gi
     // return false;
     return nums.length === 4 && nums.every(x => x != "" && !isNaN(x) && x >= 0 && x < 256);
 }
